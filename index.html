@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">JHAANJAR</span>
+                    <span class="songlistplay"><span class="timestamp">03:55 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover2.jpg" alt="2">
+                    <span class="songName">Dil De Diya</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover3.jpg" alt="3">
+                    <span class="songName">Ki Kariye</span>
+                    <span class="songlistplay"><span class="timestamp">02:13 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover4.jpg" alt="4">
+                    <span class="songName">Kya Baat Hai</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover5.jpg" alt="5">
+                    <span class="songName">Roohedaariyaan</span>
+                    <span class="songlistplay"><span class="timestamp">04:05 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover6.jpg" alt="6">
+                    <span class="songName">Sahi Galat</span>
+                    <span class="songlistplay"><span class="timestamp">02:49 <i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="" id="gif"><span id="masterSongName">JHAANJAR</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c77694a134.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
